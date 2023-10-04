@@ -3,7 +3,7 @@ import Form from '../common/Form';
 import HeaderWidget from '../common/HeaderWidget';
 
 const Contact = () => {
-  const { header, content, items, form } = contactData;
+  const { header , content, items, form } = contactData
 
   return (
     <section className="bg-primary-50 dark:bg-slate-800" id="contact">

@@ -17,7 +17,8 @@ const Announcement = () => {
           {callToAction.icon && <callToAction.icon className="mr-1 -ml-1.5 h-5 w-5" />} {callToAction.text}
         </a>
       )}
-      {callToAction2 && callToAction2.text && callToAction2.href && (
+
+      {/*{callToAction2 && callToAction2.text && callToAction2.href && (
         <a
           href={callToAction2.href}
           target="_blank"
@@ -32,7 +33,8 @@ const Announcement = () => {
             height="20"
           />
         </a>
-      )}
+      )} */}
+      
     </div>
   );
 };

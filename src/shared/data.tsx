@@ -56,12 +56,12 @@ import typescriptLogo from '~/assets/images/typescript-logo.png';
 export const announcementData: AnnouncementProps = {
   title: 'NEW',
   callToAction: {
-    text: 'This template is made with Next.js 13 using the new App Router »',
-    href: 'https://nextjs.org/docs/app',
+    text: 'This demo website is made by Isaac»',
+    href: 'https://cv.ntegeka.me',
   },
   callToAction2: {
-    text: 'Follow @onWidget on Twitter',
-    href: 'https://twitter.com/intent/user?screen_name=onwidget',
+    text: 'Twitter',
+    href: 'https://twitter.com/',
   },
 };
 
@@ -69,48 +69,55 @@ export const announcementData: AnnouncementProps = {
 export const headerData: HeaderProps = {
   links: [
     {
-      label: 'Pages',
+      label: 'Home',
+      href: '/',
+    },
+  
+    {
+      label: 'Countries',
       icon: IconChevronDown,
       links: [
         {
-          label: 'About us',
-          href: '/about',
+          label: 'Bolivia',
+          href: '/countries/bolivia',
         },
         {
-          label: 'Pricing',
-          href: '/pricing',
+          label: 'Tanzania',
+          href: '/countries/tanzania',
         },
         {
-          label: 'Contact us',
-          href: '/contact',
+          label: 'United Kingdom',
+          href: '/countries/china',
         },
-        {
-          label: 'FAQs',
-          href: '/faqs',
-        },
+      ],
+    },
+    {
+      label: 'Contact',
+      href: '/',
+    },
+    {
+      label: 'Pages',
+      icon: IconChevronDown,
+      links: [
         {
           label: 'Privacy Policy',
           href: '/privacy',
         },
         {
-          label: 'Terms & Conditions',
+          label: 'Terms and Conditions',
           href: '/terms',
         },
+        {
+          label: 'FAQs',
+          href: '/faqs',
+        },
       ],
-    },
-    {
-      label: 'Blog',
-      href: '/blog',
-    },
-    {
-      label: 'Contact',
-      href: '/contact',
     },
   ],
   actions: [
     {
-      text: 'Download',
-      href: 'https://github.com/onwidget/tailnext',
+      text: 'Our Services',
+      href: '#features3',
       targetBlank: true,
       btnType: 'primary',
     },
@@ -125,31 +132,30 @@ export const headerData: HeaderProps = {
 export const heroData: HeroProps = {
   title: (
     <>
-      Free template for <span className="hidden md:inline">starts a website using</span> <span>Next.js</span> +{' '}
-      <span className="sm:whitespace-nowrap">Tailwind CSS</span>
+      The Uromet Group <span className="hidden md:inline">- Working Today For Tomorrow's Environment</span>
+      
     </>
   ),
   subtitle: (
     <>
       <span className="hidden md:inline">
         <span className="font-semibold underline decoration-primary-600 decoration-wavy decoration-1 underline-offset-2">
-          TailNext
+        For over forty years,
         </span>{' '}
-        is a production ready template to start your new website using <em>Next.js</em> + <em>Tailwind CSS</em>.
+        we have proven ourselves to be a reliable Reclamation, Recovery, and Environmental Management Trading Group.
       </span>{' '}
-      It has been designed following Best Practices, SEO, Accessibility, Dark Mode, great Page Speed, image
-      optimization.
+      Spearheading Recycling, Reclamation, Re-Use, Catalyst Recycling, Mining, Environmental Consultancy, and Trading in various countries around the globe.
     </>
   ),
   callToAction: {
-    text: 'Get template',
-    href: 'https://github.com/onwidget/tailnext',
+    text: 'Our Services',
+    href: '/',
     icon: IconDownload,
     targetBlank: true,
     btnType: 'primary',
   },
   callToAction2: {
-    text: 'Learn more',
+    text: 'About Us',
     href: '/',
   },
   image: {
@@ -478,71 +484,71 @@ export const featuresData: FeaturesProps = {
   header: {
     title: (
       <>
-        What you get with <span className="whitespace-nowrap">TailNext</span>
+        What we do at <span className="whitespace-nowrap">Uromet</span>
       </>
     ),
     subtitle:
-      'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque rem aperiam, eaque ipsa quae.',
-    highlight: 'Features',
+      'With a strong commitment to sustainable practices, the Uromet Group has established itself as a leader in the industry, providing innovative solutions to global environmental challenges.',
+    highlight: 'OUR EXPERTISE',
   },
   items: [
     {
-      title: 'Next.Js + Tailwind CSS Integration',
+      title: 'Recycling/ Reclamation/ Re-Use',
       description:
-        'A seamless integration between two great frameworks that offer high productivity, performance and versatility.',
+        'As an industry pioneer, the Uromet Group has developed advanced technologies and processes to efficiently and effectively reclaim valuable resources from various waste streams. By implementing state-of-the-art recycling techniques, the group minimizes waste and contributes to the circular economy, ensuring a more sustainable future for generations to come.',
       icon: IconBrandTailwind,
       link: {
-        label: 'Discover now',
+        label: 'Find out more',
         href: '/',
       },
     },
     {
-      title: 'Ready-to-use Components',
+      title: 'Catalyst Recycling',
       description:
-        'Widgets made with Tailwind CSS ready to be used in Marketing Websites, SaaS, Blogs, Personal Profiles, Small Business...',
+        'With an in-depth understanding of catalysts used in various industries, the group specializes in recovering and recycling precious metals from spent catalysts. Through meticulous extraction methods, the Uromet Group ensures the maximum recovery of valuable metals, reducing the need for mining and preserving natural resources.',
       icon: IconComponents,
       link: {
-        label: 'Discover now',
+        label: 'Find out more',
         href: '/',
       },
     },
     {
-      title: 'Best Practices',
+      title: 'Mining',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mi risus tempus nulla.',
+        'In the field of Mining, the Uromet Group is committed to responsible and sustainable practices. With a focus on minimizing environmental impact, the group employs innovative techniques to extract minerals while safeguarding ecosystems. By adhering to strict environmental regulations and engaging in community development initiatives, the Uromet Group strives to create a positive and lasting impact in the mining industry.',
       icon: IconListCheck,
       link: {
-        label: 'Discover now',
+        label: 'Find out more',
         href: '/',
       },
     },
     {
-      title: 'Excellent Page Speed',
+      title: 'Environmental Consultancy',
       description:
-        'Having a good page speed impacts organic search ranking, improves user experience (UI/UX) and increase conversion rates.',
+        'group works closely with clients to assess, manage, and mitigate environmental risks and impacts. With a team of highly skilled professionals, the Uromet Group provides comprehensive environmental assessments, regulatory compliance guidance, and sustainable development strategies, helping businesses navigate complex environmental challenges.',
       icon: IconRocket,
       link: {
-        label: 'Discover now',
+        label: 'Find out more',
         href: '/',
       },
     },
     {
-      title: 'Search Engine Optimization (SEO)',
+      title: 'Trading',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mi risus tempus nulla.',
+        'Leveraging its extensive network and industry expertise, the group engages in the trading of reclaimed materials, recycled products, and other environmentally friendly commodities. By facilitating the exchange of these sustainable resources, the Uromet Group actively supports the global transition towards a more circular and resource-efficient economy.',
       icon: IconArrowsRightLeft,
       link: {
-        label: 'Discover now',
+        label: 'Find out more',
         href: '/',
       },
     },
     {
-      title: 'Open to new ideas and contributions',
+      title: 'A Global Presence',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mi risus tempus nulla.',
+        "With a global presence and a diverse portfolio of services, the Uromet Group has successfully collaborated with clients from various sectors including manufacturing, energy, petrochemicals, and more. The group's commitment to environmental stewardship, technological innovation, and sustainable practices has earned it a reputation for excellence and reliability in the industry.",
       icon: IconBulb,
       link: {
-        label: 'Discover now',
+        label: 'Find out more',
         href: '/',
       },
     },
@@ -727,16 +733,16 @@ export const teamData: TeamProps = {
   header: {
     title: 'Team Members',
     subtitle:
-      'Suspendisse in dui nibh. Donec enim leo, sodales et egestas id, malesuada non diam. Sed dapibus velit et mauris condimentum, vel imperdiet erat egestas.',
+      "Our team's technical expertise, cutting-edge technologies, and a deep understanding of the industry is driving positive change and shaping a future where environmental responsibility and economic growth go hand in hand.",
     // highlight: 'Team',
   },
   teams: [
     {
-      name: 'Cindy Belcher',
-      occupation: 'SEO Consultant',
+      name: 'Woody',
+      occupation: 'Job Title',
       image: {
-        src: 'https://images.unsplash.com/photo-1637858868799-7f26a0640eb6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80',
-        alt: 'Cindy Belcher',
+        src: 'https://images.unsplash.com/photo-1629486249013-16a72da0817c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80',
+        alt: 'Woody',
       },
       items: [
         {
@@ -757,11 +763,11 @@ export const teamData: TeamProps = {
       ],
     },
     {
-      name: 'Toby Foster',
-      occupation: 'Marketing Tech',
+      name: 'Buzz Lightyear',
+      occupation: 'Job Title',
       image: {
-        src: 'https://images.unsplash.com/photo-1614583224978-f05ce51ef5fa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2172&q=80',
-        alt: 'Toby Foster',
+        src: 'https://images.unsplash.com/photo-1570639668565-a841f09a5a04?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1960&q=80',
+        alt: 'Buzz Lightyear',
       },
       items: [
         {
@@ -782,11 +788,11 @@ export const teamData: TeamProps = {
       ],
     },
     {
-      name: 'Clark Bourne',
-      occupation: 'Content Manager',
+      name: 'Super Mario',
+      occupation: 'Job Title',
       image: {
-        src: 'https://images.unsplash.com/photo-1639628735078-ed2f038a193e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1674&q=80',
-        alt: 'Clark Bourne',
+        src: 'https://images.unsplash.com/photo-1612798725068-70093d7d3d56?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1972&q=80',
+        alt: 'Super Mario',
       },
       items: [
         {
@@ -807,11 +813,11 @@ export const teamData: TeamProps = {
       ],
     },
     {
-      name: 'Bella Chase',
-      occupation: 'UX Designer',
+      name: 'No Name',
+      occupation: 'Job Title',
       image: {
         src: 'https://images.unsplash.com/photo-1628260412297-a3377e45006f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1674&q=80',
-        alt: 'Bella Chase',
+        alt: 'Minions',
       },
       items: [
         {
@@ -1380,15 +1386,15 @@ export const footerData2: FooterProps = {
   columns: [
     {
       title: 'Address',
-      texts: ['51 Phasellus Avenue Maecenas', 'Aliquam, AQ 52098'],
+      texts: ['Ground Floor Churchill House 120 Bunns Lane', 'Mill Hill, NW7 2AS United Kingdom'],
     },
     {
       title: 'Phone',
-      texts: ['Reception: +105 123 4567', 'Office: +107 235 7890'],
+      texts: ['Reception: +44 (0) 20 8 952 0101', 'Fax: +44 (0) 20 8 952 1177'],
     },
     {
       title: 'Email',
-      texts: ['Office: info@example.com', 'Site: https://example.com'],
+      texts: ['Office: enquiries@uromet.co.uk', 'Site: https://www.uromet.co.uk'],
     },
   ],
   socials: [
@@ -1396,15 +1402,14 @@ export const footerData2: FooterProps = {
     { label: 'Instagram', icon: IconBrandInstagram, href: '#' },
     { label: 'Facebook', icon: IconBrandFacebook, href: '#' },
     { label: 'RSS', icon: IconRss, href: '#' },
-    { label: 'Github', icon: IconBrandGithub, href: 'https://github.com/onwidget/tailnext' },
   ],
   footNote: (
     <div className="mr-4 text-sm dark:text-slate-400">
       <span className="float-left mr-1.5 h-5 w-5 rounded-sm bg-[url(https://onwidget.com/favicon/favicon-32x32.png)] bg-cover md:-mt-0.5 md:h-6 md:w-6"></span>
       Made by{' '}
-      <a className="text-blue-600 hover:underline dark:text-gray-200" href="https://onwidget.com/">
+      <a className="text-blue-600 hover:underline dark:text-gray-200" href="https://cv.ntegeka.me">
         {' '}
-        onWidget
+        Isaac
       </a>{' '}
       · All rights reserved.
     </div>

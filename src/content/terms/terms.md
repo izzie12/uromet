@@ -1,6 +1,6 @@
 # Terms and Conditions
 
-_Last updated_: March 14, 2023
+_Last updated_: October 04, 2023
 
 Please read these terms and conditions carefully before using Our Service.
 
@@ -16,9 +16,9 @@ For the purposes of these Terms and Conditions:
 
 - **Affiliate** means an entity that controls, is controlled by or is under common control with a party, where "control" means ownership of 50% or more of the shares, equity interest or other securities entitled to vote for election of directors or other managing authority.
 
-- **Country** refers to: California, United States
+- **Country** refers to: England, United Kingdom
 
-- **Company** (referred to as either "the Company", "We", "Us" or "Our" in this Agreement) refers to TailNext LLC, 1 Cupertino, CA 95014.
+- **Company** (referred to as either "the Company", "We", "Us" or "Our" in this Agreement) refers to Uromet.
 
 - **Device** means any device that can access the Service such as a computer, a cellphone or a digital tablet.
 
@@ -28,7 +28,7 @@ For the purposes of these Terms and Conditions:
 
 - **Third-party Social Media Service** means any services or content (including data, information, products or services) provided by a third-party that may be displayed, included or made available by the Service.
 
-- **Website** refers to TailNext, accessible from [https://tailnext.vercel.app](https://tailnext.vercel.app)
+- **Website** refers to TailNext, accessible from [https://uromet.co.uk](https://uromet.co.uk)
 
 - **You** means the individual accessing or using the Service, or the company, or other legal entity on behalf of which such individual is accessing or using the Service, as applicable.
 
