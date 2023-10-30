@@ -132,7 +132,7 @@ export const headerData: HeaderProps = {
 export const heroData: HeroProps = {
   title: (
     <>
-      The Uromet Group <span className="hidden md:inline">- Working Today For Tomorrow's Environment</span>
+      The Uromet Group <span className="hidden md:inline">- Working For Tomorrow's Environment</span>
       
     </>
   ),
